@@ -12,4 +12,5 @@
 
 ## Kết quả
 - Điểm đạt được trên cantunsee.space: 8130
-- Ảnh chụp kết quả có dấu hiệu cá nhân: 
+- Ảnh chụp kết quả có dấu hiệu cá nhân:   
+![cantunsee_result](https://github.com/user-attachments/assets/e8dac111-d3c0-4950-9069-3c685b874ccf)
