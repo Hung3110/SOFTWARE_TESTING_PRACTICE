@@ -45,8 +45,7 @@ Evidence:
 
 ## Chapter 2: Testing Process
 Goal: JUnit 5 tests for `StudentAnalyzer` (excellent count, valid average) with boundary handling.
-- Techniques:
-- **Equivalence Partitioning + Boundary Value Analysis (0, 10, empty) + Clean Code (validate & skip invalid scores).**
+- Techniques: Equivalence Partitioning + Boundary Value Analysis (0, 10, empty) + Clean Code (validate & skip invalid scores).
 
 Evidence:
 ![unit-test](https://github.com/user-attachments/assets/758ebcd4-91fb-47a5-9f40-bcbc21302cf7)
