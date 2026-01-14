@@ -27,20 +27,20 @@ public class StudentAnalyzer {
      * @return điểm trung bình của các điểm hợp lệ
      * - Nếu danh sách rỗng/null hoặc không có điểm hợp lệ, trả về 0.0
      */
-    // public double calculateValidAverage(List<Double> scores) {
-    //     if (scores == null || scores.isEmpty()) return 0.0; 
+    public double calculateValidAverage(List<Double> scores) {
+        if (scores == null || scores.isEmpty()) return 0.0; 
 
-    //     double sum = 0.0;
-    //     int validCount = 0;
+        double sum = 0.0;
+        int validCount = 0;
 
-    //     for (Double s : scores) {          
-    //         if (s == null) continue;
-    //         if (s < 0 || s > 10) continue; 
-    //         sum += s;
-    //         validCount++;
-    //     }
+        for (Double s : scores) {          
+            if (s == null) continue;
+            if (s < 0 || s > 10) continue; 
+            sum += s;
+            validCount++;
+        }
 
-    //     if (validCount == 0) return 0.0;
-    //     return sum / validCount;
-    // }
+        if (validCount == 0) return 0.0;
+        return sum / validCount;
+    }
 }
