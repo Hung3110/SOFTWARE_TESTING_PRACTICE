@@ -14,23 +14,25 @@
 ...
 
 ## Overview
-# This repository stores weekly practice work, source code, and evidence for the **Software Testing** course.
+This repository stores weekly practice work, source code, and evidence for the **Software Testing** course.
 Technology Stack:
--Languages: Java (JUnit).
--Tools: VS Code, Git.
--Frameworks: JUnit 5.
+- Languages: Java (JUnit)
+- Tools: VS Code, Git
+- Frameworks: JUnit 5
 
 ## Repo Structure
+```
 SOFTWARE_TESTING_PRACTICE/
-├── cantunsee/              # Chapter 1 Exercises
-├── unit-test/              # Chapter 2 Exercises (Java Project)
-│   ├── src/                # Functional Source Code
-|   ├── target/     
-│   └── test/               # Test Case Source Code
-├── cypress_exercise/       # Chapter 3: Cypress exercise
-├── jmeter/                 # Chapter 4: JMeter performance test
-├── evidence_images/        # Test Evidence Storage
-└── README.md               # This Documentation File
+|-- cantunsee/              # Chapter 1 Exercises
+|-- unit-test/              # Chapter 2 Exercises (Java Project)
+|   |-- src/                # Functional Source Code
+|   |-- target/
+|   `-- test/               # Test Case Source Code
+|-- cypress_exercise/       # Chapter 3: Cypress exercise
+|-- jmeter/                 # Chapter 4: JMeter performance test
+|-- evidence_images/        # Test Evidence Storage
+`-- README.md               # This Documentation File
+```
 
 ## Chapter 1: Testing Principles
 Goal: Train observation skills ("Pixel Perfect") and distinguish UI design errors through the Can't Unsee game.
