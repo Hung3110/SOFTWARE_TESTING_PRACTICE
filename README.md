@@ -26,6 +26,7 @@ SOFTWARE_TESTING_PRACTICE/
 │   ├── src/                # Functional Source Code
 |   ├── target/     
 │   └── test/               # Test Case Source Code
+├── cypress_exercise/       # Chapter 3: Cypress exercise
 ├── evidence_images/        # Test Evidence Storage
 └── README.md               # This Documentation File
 
@@ -44,3 +45,13 @@ Equivalence Partitioning + Boundary Value Analysis (0, 10, empty) + Clean Code (
 Evidence:
 ![unit-test](https://github.com/user-attachments/assets/758ebcd4-91fb-47a5-9f40-bcbc21302cf7)
 
+## Chapter 3: Cypress Exercise
+Goal: Viết E2E test cho <ứng dụng/quy trình>.
+Stack: Cypress 13, Node 18+, npm.
+Cách chạy:
+- Cài deps: npm install
+- Mở runner: npx cypress open
+- Chạy headless: npx cypress run
+Evidence:
+![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083846.png)
+![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083724.png)
