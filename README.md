@@ -41,6 +41,7 @@ SOFTWARE_TESTING_PRACTICE/
 Goal: Train observation skills ("Pixel Perfect") and distinguish UI design errors through the Can't Unsee game.
 - Activities: Analyze Contrast, Typography, Alignment, and Padding.
 - Result: Completed levels from basic to advanced.
+
 Evidence:
 ![cantunsee_result](https://github.com/user-attachments/assets/e8dac111-d3c0-4950-9069-3c685b874ccf)
 
@@ -58,6 +59,7 @@ Cách chạy:
 - Cài deps: npm install
 - Mở runner: npx cypress open
 - Chạy headless: npx cypress run
+
 Evidence:
 ![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083846.png)
 ![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083724.png)
