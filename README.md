@@ -9,7 +9,8 @@
 2. Repo Structure
 1. Chapter 1: Testing Principles  
 2. Chapter 2: Testing Process
-3. Chapter 3: Updating...
+3. Chapter 3: Cypress Exercise
+4. Chapter 4: JMeter Performance Test
 ...
 
 ## Overview
@@ -27,6 +28,7 @@ SOFTWARE_TESTING_PRACTICE/
 |   ├── target/     
 │   └── test/               # Test Case Source Code
 ├── cypress_exercise/       # Chapter 3: Cypress exercise
+├── jmeter/                 # Chapter 4: JMeter performance test
 ├── evidence_images/        # Test Evidence Storage
 └── README.md               # This Documentation File
 
@@ -46,12 +48,20 @@ Evidence:
 ![unit-test](https://github.com/user-attachments/assets/758ebcd4-91fb-47a5-9f40-bcbc21302cf7)
 
 ## Chapter 3: Cypress Exercise
-Goal: Viết E2E test cho <ứng dụng/quy trình>.
+Goal: Write E2E tests for the Cypress exercise.
 Stack: Cypress 13, Node 18+, npm.
-Cách chạy:
-- Cài deps: npm install
-- Mở runner: npx cypress open
-- Chạy headless: npx cypress run
+How to run:
+- Install deps: npm install
+- Open runner: npx cypress open
+- Run headless: npx cypress run
 Evidence:
 ![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083846.png)
 ![cypress_result](evidence_images/chapter3/Screenshot%202026-01-22%20083724.png)
+
+## Chapter 4: JMeter Performance Test
+Goal: Run performance testing with JMeter on Wikipedia.
+Report: `jmeter/README.MD`
+Evidence:
+![jmeter_summary](jmeter/evidence/Screenshot%202026-01-22%20110451.png)
+![jmeter_view_results_1](jmeter/evidence/Screenshot%202026-01-22%20110528.png)
+![jmeter_view_results_2](jmeter/evidence/Screenshot%202026-01-22%20110557.png)
