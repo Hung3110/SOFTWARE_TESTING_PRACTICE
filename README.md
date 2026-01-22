@@ -52,7 +52,7 @@ Evidence:
 ![unit-test](https://github.com/user-attachments/assets/758ebcd4-91fb-47a5-9f40-bcbc21302cf7)
 
 ## Chapter 3: Cypress Exercise
-Goal: Viết E2E test cho <ứng dụng/quy trình>.
+Goal: Viết E2E test cho cypress exercise.
 Stack: Cypress 13, Node 18+, npm.
 Cách chạy:
 - Cài deps: npm install
